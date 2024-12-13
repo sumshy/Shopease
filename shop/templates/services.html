@@ -1,0 +1,26 @@
+{% extends "main.html" %}
+{% load static %}
+
+{% block title %}Our Services - ShopEase{% endblock %}
+
+{% block content %}
+<div class="services-section my-5">
+    <h1 class="text-center mb-4">Our Services</h1>
+    <div class="row align-items-center">
+        <!-- Image Section -->
+        <div class="col-md-4 text-center">
+            <img src="{% static 'images/img4.jpg' %}" alt="Our Services" class="img-fluid rounded">
+        </div>
+        <!-- Text Section -->
+        <div class="col-md-8">
+            <p class="lead">Here’s what we offer:</p>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">🌟 24/7 Customer Support</li>
+                <li class="list-group-item">🚚 Fast and Reliable Delivery</li>
+                <li class="list-group-item">🔒 Secure Online Payments</li>
+                <li class="list-group-item">💸 Exclusive Deals and Offers</li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}

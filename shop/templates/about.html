@@ -1,0 +1,23 @@
+{% extends "main.html" %}
+{% load static %}
+
+{% block title %}About Us - ShopEase{% endblock %}
+
+{% block content %}
+<div class="about-section my-5">
+    <h1 class="text-center mb-4">About Us</h1>
+    <div class="row align-items-center">
+        <!-- Image Section -->
+        <div class="col-md-4 text-center">
+            <img src="{% static 'images/img2.jpg' %}" alt="About Us" class="img-fluid rounded my-4">
+        </div>
+        <!-- Text Section -->
+        <div class="col-md-8">
+            <p class="lead">
+                ShopEase is dedicated to bringing you the best online shopping experience.
+                From secure payments to reliable deliveries, we aim to exceed your expectations.
+            </p>
+        </div>
+    </div>
+</div>
+{% endblock %}
